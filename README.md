@@ -162,24 +162,21 @@ INSTRUMENT side_stick
 E4 E4 E4
 ```
 
-Notes
+## Notes
 
     MIDI Channels: Channel 10 is reserved for percussion instruments.
     Instruments YAML: Instrument definitions are loaded from instruments.yaml. Make sure you have a properly formatted YAML file for this to work correctly.
     Delta Time: In MIDI, the time value represents the delay (in ticks) between subsequent events, not the absolute time.
 
-Troubleshooting
+## Troubleshooting
 
     If you encounter issues with pygame initialization, ensure that your audio setup is properly configured on your machine.
     Make sure the instruments.yaml file contains valid instrument names and values.
 
-License
+## License
 
 This project is licensed under the MIT License.
 Contributing
 
+## Contribute
 Feel free to open an issue or a pull request if you find a bug or want to contribute to the project.
-
-
-This `README.md` includes details for using **pyenv** and **Poetry** and how to execute the script via Poetry (`poetry run text-to-midi`). It also explains running the script while in the virtual environment activated through `poetry shell`.
-
