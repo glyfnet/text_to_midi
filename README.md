@@ -137,6 +137,11 @@ The text file should contain commands to define:
 - Music Notes or Rest (REST)
 - Looping (LOOP and END)
 
+To loop sections of the music, use the LOOP and END commands. Here's how:
+
+- LOOP X: Start a loop block, where X is the number of times to repeat the section.
+- END: End the loop block.
+
 Example File:
 
 ```
@@ -164,14 +169,14 @@ E4 E4 E4
 
 ## Notes
 
-    MIDI Channels: Channel 10 is reserved for percussion instruments.
-    Instruments YAML: Instrument definitions are loaded from instruments.yaml. Make sure you have a properly formatted YAML file for this to work correctly.
-    Delta Time: In MIDI, the time value represents the delay (in ticks) between subsequent events, not the absolute time.
+- MIDI Channels: Channel 10 is reserved for percussion instruments.
+- Instruments YAML: Instrument definitions are loaded from instruments.yaml. Make sure you have a properly formatted YAML file for this to work correctly.
+- Delta Time: In MIDI, the time value represents the delay (in ticks) between subsequent events, not the absolute time.
 
 ## Troubleshooting
 
-    If you encounter issues with pygame initialization, ensure that your audio setup is properly configured on your machine.
-    Make sure the instruments.yaml file contains valid instrument names and values.
+If you encounter issues with pygame initialization, ensure that your audio setup is properly configured on your machine.
+Make sure the instruments.yaml file contains valid instrument names and values.
 
 ## License
 
