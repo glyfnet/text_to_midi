@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "text-to-midi"
+version = "0.1.0"
+description = ""
+authors = ["Eric Greene <eric@vursiv.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click = "^8.1.7"
+mido = "^1.3.3"
+python-rtmidi = "^1.5.8"
+pygame = "^2.6.1"
+pyaml = "^24.9.0"
+
+[tool.poetry.scripts]
+text-to-midi = "text_to_midi:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

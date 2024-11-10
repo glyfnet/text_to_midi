@@ -1,0 +1,46 @@
+# Set up general parameters
+TEMPO 120                    # Set the tempo to 120 BPM
+SCALE C major                # Use the C major scale
+
+# === Track 1: Violin Melody ===
+TRACK 1
+INSTRUMENT electric_jazz_guitar    # Violin as the instrument for Track 1
+VELOCITY 80                  # Set velocity to 80
+DURATION 1.0                 # Set default duration to 1.0 beats
+
+LOOP 3
+C5                           # Play C5
+D5                           # Play D5
+E5                           # Play E5
+G4                           # Play G4
+REST 0.5                     # Rest for half a beat
+END                   
+
+# === Track 2: Violin Melody ===
+TRACK 2 
+INSTRUMENT electric_jazz_guitar    # Violin as the instrument for Track 1
+VELOCITY 80                  # Set velocity to 80
+DURATION 1.0                 # Set default duration to 1.0 beats
+
+LOOP 3
+REST 1.0
+C5                           # Play C5
+D5                           # Play D5
+E5                           # Play E5
+G4                           # Play G4
+END                   
+
+# === Track 3: Violin Melody ===
+TRACK 3 
+CHANNEL 10 
+INSTRUMENT low_tom          # Violin as the instrument for Track 1
+VELOCITY 80                  # Set velocity to 80
+DURATION 3.0                 # Set default duration to 1.0 beats
+
+LOOP 3
+REST 1.0
+C5                           # Play C5
+D5                           # Play D5
+E5                           # Play E5
+G4                           # Play G4
+END                   
