@@ -9,7 +9,7 @@ This project is a Python-based tool that generates MIDI files from an expressive
 - Uses **pygame** for MIDI playback.
 
 ## Requirements
-- Python 3.7+
+- Python 3.10+
 - `click` (for command-line interaction)
 - `yaml` (to load instrument configuration)
 - `mido` (to handle MIDI file creation)
