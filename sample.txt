@@ -9,10 +9,7 @@ VELOCITY 80                  # Set velocity to 80
 DURATION 1.0                 # Set default duration to 1.0 beats
 
 LOOP 3
-C5                           # Play C5
-D5                           # Play D5
-E5                           # Play E5
-G4                           # Play G4
+C5 D5 E5 G4
 REST 0.5                     # Rest for half a beat
 END                   
 
@@ -24,10 +21,7 @@ DURATION 1.0                 # Set default duration to 1.0 beats
 
 LOOP 3
 REST 1.0
-C5                           # Play C5
-D5                           # Play D5
-E5                           # Play E5
-G4                           # Play G4
+C5 D5 E5 G4
 END                   
 
 # === Track 3: Violin Melody ===
@@ -39,8 +33,5 @@ DURATION 3.0                 # Set default duration to 1.0 beats
 
 LOOP 3
 REST 1.0
-C5                           # Play C5
-D5                           # Play D5
-E5                           # Play E5
-G4                           # Play G4
+41 42 41 42    
 END                   

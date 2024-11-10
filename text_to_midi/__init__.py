@@ -202,8 +202,7 @@ def process_line(line, track, duration, velocity, time_per_beat, root_note, scal
             if channel == 10 and part.isdigit():
                 # Handle percussion channel
                 midi_note = int(part)
-                if midi_note in PERCUSSION_INSTRUMENTS:
-                    notes.append(midi_note)
+                notes.append(midi_note)
             elif part[0].isalpha() and part[-1].isdigit():
                 # Convert note like C4 or G#3 to MIDI number
                 midi_note = note_to_midi_number(part)

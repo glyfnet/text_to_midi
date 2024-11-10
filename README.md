@@ -135,22 +135,30 @@ The text file should contain commands to define:
 - Note Velocity (VELOCITY)
 - Note Duration (DURATION)
 - Music Notes or Rest (REST)
+- Looping (LOOP and END)
 
 Example File:
 
 ```
+# Global settings
 TEMPO 120
 SCALE C major
+
+# Define Track 1
 TRACK 1
 CHANNEL 1
-INSTRUMENT Acoustic Grand Piano
+INSTRUMENT acoustic_grand_piano
 VELOCITY 80
 DURATION 1.0
-C4 D4 E4 G4
-REST 0.5
+LOOP 2
+G4 A4 B4 
+REST
+END
+
+# Define Track 2
 TRACK 2
 CHANNEL 10
-INSTRUMENT Side Stick
+INSTRUMENT side_stick
 E4 E4 E4
 ```
 
